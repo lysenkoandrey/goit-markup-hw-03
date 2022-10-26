@@ -186,6 +186,10 @@ header {
 }
 
 /* SECTION 1 (HERO) */
+.section-hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
 
 .section-hero-title {
     margin-bottom: 30px;
@@ -197,8 +201,6 @@ header {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
-
-    
 }
 
 /* SECTION 2 */
