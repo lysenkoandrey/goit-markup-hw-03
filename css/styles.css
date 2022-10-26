@@ -112,7 +112,7 @@ header {
 .header-nav-item,
 .header-contacts-item {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02;
 }
@@ -220,10 +220,12 @@ header {
 .section-hero {
     padding-top: 200px;
     padding-bottom: 200px;
+    text-align: center;
 }
 
 .section-hero-title {
-    margin-bottom: 30px;
+    width: 696px;
+    margin: 0 auto 30px auto;
 
     color: var(--text-white-color);
     text-transform: uppercase;
