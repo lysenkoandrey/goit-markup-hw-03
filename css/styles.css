@@ -314,6 +314,7 @@ header {
 .main-portfolio-picture-border{
     border: 1px solid #EEEEEE;
     border-top: none;
+    /* border-radius: 0 0 1px 1px; */
 }
 
 .main-portfolio-picture img {
