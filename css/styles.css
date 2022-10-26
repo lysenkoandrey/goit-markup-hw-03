@@ -313,7 +313,7 @@ header {
 
 .main-portfolio-picture-border{
     border: 1px solid #EEEEEE;
-    border-top-color: transparent;
+    border-top: none;
 }
 
 .main-portfolio-picture img {
