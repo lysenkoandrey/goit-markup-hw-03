@@ -69,6 +69,11 @@ body {
     line-height: 1.2;
 }
 
+.logo-header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
 .logo-header span {
     color: #000000; 
 }
