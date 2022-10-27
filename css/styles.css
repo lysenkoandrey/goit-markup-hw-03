@@ -181,6 +181,7 @@ header {
 }
 
 .section-four {
+    min-width: 1200px;
     background-color: var(--botton-portfolio-bgc-color);
 }
 
@@ -247,6 +248,11 @@ header {
 
 .section-two-items {
     display: flex;
+    gap: 30px;
+}
+
+.section-two-item {
+    flex-basis: calc((100% - 3 * 30px) / 4);
 }
 
 .section-two-item-desc {
@@ -271,11 +277,16 @@ header {
 
 .section-three-items {
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
+    /* justify-content: space-between; */
 }
 
 .section-three-items img {
     display: block;
+}
+
+.section-three-item {
+    flex-basis: calc((100% - 2 * 30px) / 3);
 }
 
 /* SECTION 4 */
@@ -291,10 +302,12 @@ header {
 
 .section-four-items {
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
+    /* justify-content: space-between; */
 }
 
 .section-four-item {
+    flex-basis: calc((100% - 3 * 30px) / 4);
     padding-bottom: 30px;
     background-color: var(--bgc-page);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -341,7 +354,8 @@ header {
 .main-portfolio-picture {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 30px;
+    /* justify-content: space-between; */
 }
 
 .main-portfolio-picture-border{
@@ -377,10 +391,15 @@ header {
     text-align: left;
 }
 
-.main-portfolio-picture li:not(:nth-last-child(-n + 3)) {
-    /* outline: 1px solid red; */
+/* .main-portfolio-picture li:not(:nth-last-child(-n + 3)) {
+    outline: 1px solid red;
     margin-bottom: 30px;
+} */
+
+.main-portfolio-picture-set {
+    flex-basis: calc((100% - 2 * 30px) / 3);
 }
+
 
 
 
