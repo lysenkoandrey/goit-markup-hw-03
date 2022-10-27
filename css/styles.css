@@ -3,8 +3,8 @@
     --primary-text-color: #757575;
     --accent-text-color: #2196F3;
     --text-white-color: #ffffff;
-    --botton-text-color: rgba(255, 255, 255, 0.6);
-    --botton-portfolio-bgc-color: #F5F4FA;
+    --button-text-color: rgba(255, 255, 255, 0.6);
+    --button-portfolio-bgc-color: #F5F4FA;
     --bgc-page: #ffffff;
     --footer-bgc: #2F303A;
     --portfolio-bgc: #F5F5F5;
@@ -181,7 +181,7 @@ header {
 }
 
 .section-four {
-    background-color: var(--botton-portfolio-bgc-color);
+    background-color: var(--button-portfolio-bgc-color);
 }
 
 .section-two-title,
@@ -425,8 +425,8 @@ address {
     font-style: normal;
 }
 
-.footer-adress-item {
-    color: var(--botton-text-color);
+.footer-address-item {
+    color: var(--button-text-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -434,8 +434,8 @@ address {
 
 .map-link:focus,
 .map-link:hover,
-.footer-adress-item:hover,
-.footer-adress-item:focus {
+.footer-address-item:hover,
+.footer-address-item:focus {
     color: var(--accent-text-color);
     outline: transparent;
 }
@@ -445,7 +445,7 @@ address {
     margin-bottom: 20px;
 }
 
-.footer-adress-items li {
+.footer-address-items li {
     margin-bottom: 9px;
 }
 
@@ -473,7 +473,7 @@ button {
     padding: 6px 22px;
     min-width: 73px;
     text-align: center;
-    background-color: var(--botton-portfolio-bgc-color);
+    background-color: var(--button-portfolio-bgc-color);
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
