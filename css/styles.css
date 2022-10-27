@@ -168,7 +168,7 @@ header {
 /* --------- MAIN PAGE--------- */
 
 .section-hero {
-    min-width: 1200px;
+
     background-color: #2F303A;
     text-align: center;
 
@@ -181,7 +181,6 @@ header {
 }
 
 .section-four {
-    min-width: 1200px;
     background-color: var(--botton-portfolio-bgc-color);
 }
 
@@ -409,7 +408,6 @@ header {
 /* --------- FOOTER --------- */
 
 footer {
-    min-width: 1200px;
     padding-top: 60px;
     padding-bottom: 60px;
 
